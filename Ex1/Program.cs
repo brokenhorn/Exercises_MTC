@@ -23,7 +23,7 @@ namespace ConsoleApp1
 
         static void FailProcess()
         {
-            Random rnd = new Random();
+	        Random rnd = new Random();
             int i = rnd.Next(1, 3);
 
             switch (i)
